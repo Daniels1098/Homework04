@@ -1,0 +1,146 @@
+/** @format */
+table{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    background-image: url(mcn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+.first {
+    max-width:1460px;
+    margin: auto;
+    background: white;
+    height: 74px;
+}
+
+form {
+    padding: 50px 100px;
+}
+
+.input-container {
+    display: inline-block;
+    margin: 10px 0 22px 0;
+    position: absolute;
+    width: 281px;
+    height: 40px;
+}
+  
+.search-field {
+    width: 100%;
+    height: 100%;
+    background: #f1f2f5;
+    border-radius: 100px;
+    border: 0px;
+    padding: 11px 18px 11px 36px;
+}
+  
+.search-field:focus {
+    outline: none;
+    background: #cecece;
+}
+  
+.search-field::placeholder {
+    font-size: 15px;
+    color: #66676b;
+}
+  
+.search-icon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.flogo {
+    display: inline-block;
+    margin: 10px 14px 24px 15px;
+   width: 40px;
+}
+    
+.house {
+    display: inline-block;
+    position: absolute;
+    margin: 19px 0  0 300px;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.icons  {
+    display: inline-block;
+    position: absolute;
+    margin: 0px  0 32px 113px;
+    width: 23px;
+   
+}
+
+.store {
+    display: inline-block;
+    position: absolute;
+    margin: 0px  0 32px 251px;
+    width: 24px;
+}
+
+.crowd {
+    display: inline-block;
+    position: absolute;
+    margin: 0px  0 32px 388px;
+    width: 26px;
+}
+
+.cube {
+    display: inline-block;
+    position: absolute;
+    margin: 0px  0 32px 527px;
+    width: 24px;
+}
+ 
+.circle {
+    display: inline-block;
+    position: relative;
+    margin: 16px 7px 29px 1072px;
+}
+
+.name {
+    display: inline-block;
+    position: absolute;
+    padding: 5px 29px 30px 7px;
+} 
+
+.last4 {
+    padding-top: 10px;
+}
+
+.last4 {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+} 
+
+.plus {
+     margin: 20px 30px 37px 70px;
+     border-radius: 100px;
+     background: rgb(196, 197, 189);
+     border: 30px;
+     border-color: rgb(196, 197, 189);
+}
+.vilnis {
+    margin: 20px 30px 37px 0px;
+    border-radius: 100px;
+
+    background: rgb(196, 197, 189);
+}
+
+.zvans {
+    margin: 20px 30px 37px 0px;
+    border-radius: 100px;
+    background: rgb(196, 197, 189);
+}
+
+.bulta {
+    margin: 20px 30px 37px 0px;
+    border-radius: 100px;
+    background: rgb(196, 197, 189);
+
+}
